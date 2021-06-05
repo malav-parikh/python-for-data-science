@@ -35,6 +35,7 @@ print(tupSample)
 # a single element can be multiplied with another sperately
 # but like lists a single element cannot be multiplied and replaced in the original tuple
 tupSample[3] * 2 # this is allowed
+# tupSample[3] *= 2 # this is not allowed. error as tuple does not support item assignment
 # print(tupSample) # gives error 
 
 # ARRAY
